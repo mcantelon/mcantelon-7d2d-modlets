@@ -1,0 +1,4 @@
+<configs>
+  <set xpath="//npc_info[@id='traderrekt']/@voice_set">trader_joel</set>
+  <set xpath="//npc_info[@id='traderrekt']/@stance">Like</set>
+</configs>

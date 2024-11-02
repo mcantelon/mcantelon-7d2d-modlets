@@ -1,11 +1,20 @@
 <configs>
+  <remove xpath="//block[@name='goreBlockAnimal']" />
+  <insertAfter xpath="//block[@name='liftHydraulicGrey']">
+    <block name="goreBlockAnimal">
+      <property name="Extends" value="newspaperDecor01" />
+      <property name="IsTerrainDecoration" value="true" />
+    </block>
+  </insertAfter>
+
   <remove xpath="//block[@name='goreBlockHumanCorpse']" />
-  <remove xpath="//block[@name='goreBlockHumanBones']" />
   <insertAfter xpath="//block[@name='goreBlockAnimal']">
     <block name="goreBlockHumanCorpse">
       <property name="Extends" value="garbage_decor1" />
     </block>
   </insertAfter>
+
+  <remove xpath="//block[@name='goreBlockHumanBones']" />
   <insertAfter xpath="//block[@name='goreBlockAnimal']">
     <block name="goreBlockHumanBones">
       <property name="Extends" value="garbage_decor1" />

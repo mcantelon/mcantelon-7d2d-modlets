@@ -1,3 +1,0 @@
-<configs>
-  <set xpath="//npc_info[starts-with(@id, 'traderrekt')]/@voice_set">trader_joel</set>
-</configs>
