@@ -1,0 +1,14 @@
+<configs>
+  <remove xpath="//block[@name='goreBlockHumanCorpse']" />
+  <remove xpath="//block[@name='goreBlockHumanBones']" />
+  <insertAfter xpath="//block[@name='goreBlockAnimal']">
+    <block name="goreBlockHumanCorpse">
+      <property name="Extends" value="garbage_decor1" />
+    </block>
+  </insertAfter>
+  <insertAfter xpath="//block[@name='goreBlockAnimal']">
+    <block name="goreBlockHumanBones">
+      <property name="Extends" value="garbage_decor1" />
+    </block>
+  </insertAfter>
+</configs>
