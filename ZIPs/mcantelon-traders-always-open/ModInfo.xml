@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xml>
-  <Name value="mcantelon_traders_always_open" />
-  <DisplayName value="Mcantelon's Traders Always Open" />
-  <Description value="Keeps traders open 24/7" />
-  <Author value="mcantelon" />
-  <Version value="1.0.0" compat="1.0" />
-  <Website value="" />
-</xml>
