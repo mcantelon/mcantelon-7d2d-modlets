@@ -1,0 +1,4 @@
+<configs>
+  <set xpath="//trader_info/@open_time">0:01</set>
+  <set xpath="//trader_info/@close_time">23:59</set>
+</configs>
